@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """A module for web application deployment with Fabric."""
 import os
@@ -59,4 +58,3 @@ def do_deploy(archive_path):
     except Exception:
         success = False
     return success
-
